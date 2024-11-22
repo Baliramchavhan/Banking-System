@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI</title>
+   <style>
+    body{
+      background-color:powderblue;
+      scroll-margin-block-start: x;     
+    }
+    .main{
+  
+      width: 100%;
+      height: 100%;
+      background-color:slategray;
+      border-radius: 10px;
+      box-shadow: 0px 0px 8px silver;
+      text-align: center;
+      
+      
+    }
+   
+    a{
+       display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    input{
+       display: flex;
+      justify-content: center;
+      margin-left: 100px;
+      padding: 5px;
+      border-radius: 6px;
+      margin-left: 40%;
+      box-shadow: 0px 0px 10px sandybrown;
+
+      
+    }input:hover{
+      padding: 14px;
+       box-shadow: 0px 0px 50px rgb(77, 75, 73);
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    label{
+       margin-right: 15%;
+    }
+    .b1{
+      display: flex;
+    }
+    button{
+      padding: 10px;
+      background-color: blueviolet;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px seashell;
+      margin-left: 40%;
+      
+      
+    }
+    .hs{
+      background-color: blue;
+      height: 150px;
+      text-align: center;
+      text-shadow: 0px 0px 20px rgb(158, 142, 142);
+      
+    }
+    .b1{
+		display: flex;
+		justify-content: space-between;
+	}
+	.s1{
+		margin-right: 40%;
+	}
+   </style>
+    </head>
+    <body>
+		<form action="sbi" method="post"> 
+      <div class="main">
+        <div class="hs">
+      <h1> STATE BANK OF INDIA </h1><br>
+      <hr>
+      <h3>NRI/FCNR ACCOUNT OPENING FROM</h3>
+        </div>
+        <label for="Branch Name:">Branch Name:</label><br>
+      <input type="text" name="branch"><br>
+       <label for="IFC:">IFC-NO :</label><br>
+      <input type="text" name="ifc"><br>
+      <label for=" Adhar No:">Adhar No:</label><br>
+      <input type="password" name="adharnumber"><br>
+      <label for="Costomer Name:">  Costomer Name:</label><br>
+      <input type="text" name="cname"><br>
+      <label for="Mobail No:">Mobail No:</label><br>
+      <input type="number" name="phone"><br>
+      <label for="Enter Amount:">Enter Amount:</label><br>
+      <input type="number" name="amount"><br>
+      <label for=" Address :">Address :</label><br>
+      <input type="text" name="address"><br>
+          <br>
+      
+      <div class="b1">
+      <input type="submit">
+      <input type="reset" class="s1">
+       </div>
+      <div>
+      <a href="Login.html">Login</a>
+       <a href="Home.html"> Go back to home page</a>
+      </div>
+      </form>
+    </body>
+      </html>
